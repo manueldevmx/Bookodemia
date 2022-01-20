@@ -14,8 +14,8 @@
     <string name="crear_cuenta">Crear cuenta</string>
     <string name="registra_tu_informaci_n">Registra tu información</string>
     <string name="usuario">Usuario</string>
-    <string name="todo" tools:ignore="DuplicateDefinition">TODO4</string>
-    <string name="todo" tools:ignore="DuplicateDefinition">TODO1</string>
+    <string name="todo1" tools:ignore="DuplicateDefinition">TODO4</string>
+    <string name="todo2" tools:ignore="DuplicateDefinition">TODO1</string>
     <string name="banner">banner</string>
     <string name="title_activity_home">home</string>
     <string name="title_home">Home</string>
@@ -23,7 +23,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="name">name</string>
     <string name="ferlima">FerLima</string>
-    <string name="hola" tools:ignore="DuplicateDefinition">Hola</string>
+    <string name="hola2" tools:ignore="DuplicateDefinition">Hola</string>
     <string name="hola" tools:ignore="DuplicateDefinition">Hola2</string>
     <string name="libros">Libros</string>
     <string name="categorias">Categorias</string>
@@ -33,4 +33,8 @@
     <string name="reci_n_agregadas">Recién agregadas</string>
     <string name="categoria">Categoria</string>
     <string name="setdesc">TODO</string>
+    <string name="title_activity_detalle">detalle</string>
+
+
+
 </resources>

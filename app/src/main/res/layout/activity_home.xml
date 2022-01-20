@@ -18,7 +18,7 @@
       app:srcCompat="@drawable/banner"
       tools:layout_editor_absoluteX="0dp"
       tools:ignore="ContentDescription,MissingConstraints"
-      android:contentDescription="@string/todo" />
+      android:contentDescription="@string/todo2" />
 
   <TextView
       android:id="@+id/textView6"
