@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Bookodemia</string>
     <string name="password">password</string>
     <string name="contrase_a">Contraseña</string>
@@ -11,4 +11,26 @@
     <string name="regresar">Regresar</string>
     <string name="estas_a_unos_cuantos_pasos_de_vivir_la_mejor_experiencia">Estas a unos cuantos pasos de vivir la mejor experiencia</string>
     <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="registra_tu_informaci_n">Registra tu información</string>
+    <string name="usuario">Usuario</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO4</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO1</string>
+    <string name="banner">banner</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="name">name</string>
+    <string name="ferlima">FerLima</string>
+    <string name="hola" tools:ignore="DuplicateDefinition">Hola</string>
+    <string name="hola" tools:ignore="DuplicateDefinition">Hola2</string>
+    <string name="libros">Libros</string>
+    <string name="categorias">Categorias</string>
+    <string name="autores">Autores</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO3</string>
+    <string name="m_s_populares">Más populares</string>
+    <string name="reci_n_agregadas">Recién agregadas</string>
+    <string name="categoria">Categoria</string>
+    <string name="setdesc">TODO</string>
 </resources>

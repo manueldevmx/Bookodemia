@@ -16,7 +16,8 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
-      app:srcCompat="@drawable/banner" />
+      app:srcCompat="@drawable/banner"
+      android:contentDescription="@string/todo" />
 
   <ImageView
       android:id="@+id/imageView3"
@@ -27,7 +28,8 @@
       android:rotationY="180"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:srcCompat="@drawable/ic_chevron_right" />
+      app:srcCompat="@drawable/ic_chevron_right"
+      android:contentDescription="@string/todo" />
 
   <TextView
       android:id="@+id/textView2"
@@ -58,14 +60,15 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="@+id/imageView3"
-      app:layout_constraintTop_toBottomOf="@+id/textView2" />
+      app:layout_constraintTop_toBottomOf="@+id/textView2"
+      tools:ignore="TextContrastCheck" />
 
   <Button
       android:id="@+id/button4"
-      android:layout_width="237dp"
-      android:layout_height="45dp"
-      android:text="Crear cuenta"
+      android:layout_width="239dp"
+      android:layout_height="56dp"
       android:fontFamily="@font/abeezee"
+      android:text="@string/crear_cuenta"
       android:textColor="@android:color/white"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +103,7 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="16dp"
           android:fontFamily="@font/abeezee"
-          android:text="Registra tu información"
+          android:text="@string/registra_tu_informaci_n"
           android:textAlignment="center"
           android:textColor="@color/azul1"
           android:textSize="16sp"
@@ -117,7 +120,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Usuario"
+            android:hint="@string/usuario"
             android:fontFamily="@font/abeezee"
             android:textColor="@color/azul1"
             android:textColorHint="@color/azul1"
