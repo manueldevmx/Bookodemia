@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gris1"
-    tools:context=".home">
+    tools:context=".Home">
 
 
 
@@ -67,18 +67,36 @@
       app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintVertical_bias="0.21" />
 
-  <TextView
-      android:id="@+id/textView12"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="4dp"
-      android:fontFamily="@font/abeezee"
-      android:text="@string/reci_n_agregadas"
-      android:textColor="@color/azul2"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.067"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+ <com.google.android.material.button.MaterialButtonToggleGroup
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="3dp"
+     android:background="@android:color/white"
+     app:layout_constraintBottom_toTopOf="@+id/textView12"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/white"
+         android:text="Libros" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/categorias"
+         android:textColor="@android:color/white" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/autores"
+         android:textColor="@android:color/white" />
+
+ </com.google.android.material.button.MaterialButtonToggleGroup>
+
 
   <androidx.constraintlayout.widget.ConstraintLayout
       android:id="@+id/constraintLayout"
@@ -96,12 +114,12 @@
         android:id="@+id/imageView9"
         android:layout_width="361dp"
         android:layout_height="90dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/libro_1"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="-156dp"
-        android:contentDescription="TODO" />
+        tools:layout_editor_absoluteX="-156dp" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -140,69 +158,9 @@
         android:layout_width="347dp"
         android:layout_height="101dp"
         app:srcCompat="@drawable/libro_1"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="36dp"
-        tools:ignore="MissingConstraints" />
-  </androidx.constraintlayout.widget.ConstraintLayout>
-
-  <androidx.constraintlayout.widget.ConstraintLayout
-      android:id="@+id/constraintLayout2"
-      android:layout_width="413dp"
-      android:layout_height="89dp"
-      android:layout_marginTop="12dp"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.145"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="320dp"
-        android:layout_height="49dp"
-        app:cardCornerRadius="9dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-      <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/abeezee"
-            android:text="@string/libros"
-            android:textAlignment="center"
-            android:textColor="@color/azul1" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/abeezee"
-            android:text="@string/categorias"
-            android:textAlignment="center"
-            android:textColor="@color/azul1" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/abeezee"
-            android:text="@string/autores"
-            android:textAlignment="center"
-            android:textColor="@color/azul1" />
-      </LinearLayout>
-    </androidx.cardview.widget.CardView>
+        tools:layout_editor_absoluteY="36dp" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <androidx.constraintlayout.widget.ConstraintLayout

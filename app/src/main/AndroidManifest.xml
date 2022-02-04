@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bookodemia">
         <activity
-            android:name=".detalle"
+            android:name=".Detalle"
             android:exported="false"
             android:label="@string/title_activity_detalle"
             android:theme="@style/Theme.Bookodemia.NoActionBar" />
         <activity
-            android:name=".home"
+            android:name=".Home"
             android:exported="false"
             android:label="@string/title_activity_home" />
         <activity
